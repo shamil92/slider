@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         greenLabel.text = " "
         blueLabel.text = " "
         
+        colorView.layer.cornerRadius = 20
         
         
     }
@@ -55,11 +56,6 @@ class ViewController: UIViewController {
     
  
         
-    
-    //redLabel.text = String(rSlider.value)
-    //greenLabel.text = String(gSlider.value)
-    //blueLabel.text = String(bSlider.value)
-    
     
 }
 
